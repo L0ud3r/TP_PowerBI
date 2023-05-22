@@ -1,0 +1,4 @@
+ft_sales:
+deliverydaysdiff = LOOKUPVALUE('public ft_orders'[expecteddeliverydays], 'public ft_orders'[orderid], 'public ft_sales'[orderid]) - 'public ft_sales'[deliverydays]
+
+expecteddeliverydays = MAXX(FILTER('public ft_orders', 'public ft_orders'[orderid] = 'public ft_sales'[orderid]), 'public ft_orders'[expecteddeliverydays])
