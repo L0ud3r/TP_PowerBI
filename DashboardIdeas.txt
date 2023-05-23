@@ -1,7 +1,8 @@
 Dashboard Costumer:
-- Side bar da direita com top 100 compradores
-- Side bar da direita com top costumer Category
-- Pesquisar por um costumer, mostra a info dele (incluindo historico de compras)
+- Side bar da direita com top 100 compradores (DONE, TO EDIT)
+- Side bar da direita com top costumer Category (DONE, TO EDIT)
+- Pesquisar por um costumer, mostra a info dele (DOING)
+-> historico de compras (DOING)
 
 Dashboard Sales/Orders: (ANALISAR ORDERCOSTUMER)
 - Total profit até agora
