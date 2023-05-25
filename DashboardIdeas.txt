@@ -1,15 +1,15 @@
 Dashboard Costumer:
-- Side bar da direita com top 100 compradores (DONE, TO EDIT)
-- Side bar da direita com top costumer Category (DONE, TO EDIT)
-- Pesquisar por um costumer, mostra a info dele (DOING)
--> historico de compras (DOING)
+- Side bar da direita com top 100 compradores (TO REVIEW)
+- Side bar da direita com top costumer Category (TO REVIEW)
+- Pesquisar por um costumer, mostra a info dele (TO REVIEW)
+-> historico de compras (TO REVIEW)
 
 Dashboard Sales/Orders: (ANALISAR ORDERCOSTUMER)
-- Total profit até agora
-- Top 5/10 items mais vendidos
-- grafico vendas nos ultimos 12 meses
-- Donut Graph com salesterritory
-- States com mais vendas (fazer um mapa dos states)
+- Algo com profit (TO REVIEW)
+- Top 5/10 items mais vendidos (TO REVIEW)
+- grafico vendas nos ultimos 12 meses (TO REVIEW)
+- Donut Graph com salesterritory (TO DO)
+- States com mais vendas (fazer um mapa dos states) (TO REVIEW)
 
 Dashboard Payments:
 - Mostrar historico de transations
