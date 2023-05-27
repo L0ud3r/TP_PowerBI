@@ -1,0 +1,28 @@
+<ROOT>
+    <data>
+        <record>
+            <field name="Country or Area">United States</field>
+            <field name="Year">2020</field>
+            <field name="Item">Gross Domestic Product (GDP)</field>
+            <field name="Value">62690.8032098624</field>
+        </record>
+        <record>
+            <field name="Country or Area">United States</field>
+            <field name="Year">2019</field>
+            <field name="Item">Gross Domestic Product (GDP)</field>
+            <field name="Value">63953.6882052029</field>
+        </record>
+        <record>
+            <field name="Country or Area">United States</field>
+            <field name="Year">2018</field>
+            <field name="Item">Gross Domestic Product (GDP)</field>
+            <field name="Value">61820.4844723372</field>
+        </record>
+        <record>
+            <field name="Country or Area">United States</field>
+            <field name="Year">2017</field>
+            <field name="Item">Gross Domestic Product (GDP)</field>
+            <field name="Value">59059.5964026709</field>
+        </record>
+    </data>
+</ROOT>
