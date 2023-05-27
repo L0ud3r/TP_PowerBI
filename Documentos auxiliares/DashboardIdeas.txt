@@ -12,11 +12,11 @@ Dashboard Sales/Orders: (ANALISAR ORDERCOSTUMER)
 - States com mais vendas (fazer um mapa dos states) (TO REVIEW)
 
 Dashboard Payments:
-- Mostrar historico de transations
-- Total dinheiro trasnferido
-- Media por dia/semana/mes
-- Record breaking transaction
+- Mostrar historico de transations (TO REVIEW)
+- Total dinheiro transferido (TO REVIEW)
+- Media por dia/semana/mes (TO REVIEW)
+- Record breaking transaction (TO REVIEW)
 
 Dashboard Employee:
-- Ranking melhores vendedores (fazer por quantidade de vendas e por profit total) (TO DO)
+- Ranking melhores vendedores (fazer por quantidade de vendas e por profit total) (TO REVIEW)
 - Escolher um employee mostra grafico de linha com vendas do ultimo ano (TO DO)
