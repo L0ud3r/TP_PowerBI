@@ -30,3 +30,40 @@ where dim_date.year_actual = 2019
 
 
 ----
+
+SELECT AVG(customername) AS average_customername
+FROM (
+    SELECT COUNT(DISTINCT dim_customer.customername) AS customername, dim_date.year_actual
+    FROM ft_sales
+    INNER JOIN dim_customer ON dim_customer.customerid = ft_sales.ordercustomerid
+    INNER JOIN dim_date ON dim_date.date_day = ft_sales.invoicedate
+		WHERE dim_date.year_actual != 2020
+    GROUP BY dim_date.year_actual
+) subquery
+
+SELECT AVG(orderid) AS average_orderid
+FROM (
+    SELECT COUNT(DISTINCT ft_sales.orderid) AS orderid, dim_date.year_actual
+    FROM ft_sales
+    INNER JOIN dim_date ON dim_date.date_day = ft_sales.invoicedate
+		WHERE dim_date.year_actual != 2020
+    GROUP BY dim_date.year_actual
+) subquery
+
+SELECT AVG(totalamount) AS average_totalamount
+FROM (
+    SELECT SUM(ft_sales.totalamount) AS totalamount, dim_date.year_actual
+    FROM ft_sales
+    INNER JOIN dim_date ON dim_date.date_day = ft_sales.invoicedate
+		WHERE dim_date.year_actual != 2020
+    GROUP BY dim_date.year_actual
+) subquery
+
+SELECT AVG(lineprofit) AS average_lineprofit
+FROM (
+    SELECT SUM(ft_sales.lineprofit) AS lineprofit, dim_date.year_actual
+    FROM ft_sales
+    INNER JOIN dim_date ON dim_date.date_day = ft_sales.invoicedate
+		WHERE dim_date.year_actual != 2020
+    GROUP BY dim_date.year_actual
+) subquery
